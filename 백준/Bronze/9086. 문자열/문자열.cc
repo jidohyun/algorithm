@@ -1,0 +1,21 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <set>
+#include <numeric>
+#include <utility>
+using namespace std;
+
+int main() {
+  // ios::sync_with_stdio(false), cin.tie(nullptr),cout.tie(nullptr);
+  int loop;
+  string a;
+  cin >> loop;
+  while (loop--)
+  {
+    cin >> a;
+    cout << a[0] << a[a.length() - 1] << "\n";
+  }
+
+}
